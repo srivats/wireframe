@@ -15,6 +15,10 @@
             <!-- @see catalog.xml -->
             <!--remove right callout -->
             <remove name="right.permanent.callout" />
+            <!-- @see reports.xml -->
+            <!-- remove recently viewed products & compared products -->
+            <remove name="right.reports.product.compared" />
+            <remove name="right.reports.product.viewed" />
         </reference>
     </default>
 </layout>
