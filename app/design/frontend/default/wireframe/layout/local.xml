@@ -1,15 +1,20 @@
 <?xml version="1.0"?>
 <layout version="0.1.0">
-	<default>
-		<reference name="left">
-			<!-- @see catalog.xml -->
-			<!--remove left callout -->
-			<remove name="left.permanent.callout" />
-		</reference>
-		<reference name="right">
-			<!-- @see catalog.xml -->
-			<!--remove right callout -->
-			<remove name="right.permanent.callout" />
-		</reference>
-	</default>
+    <default>
+        <reference name="header">
+            <!--remove language switcher -->
+            <!-- @see page.xml -->
+            <remove name="store_language" />
+        </reference>
+        <reference name="left">
+            <!-- @see catalog.xml -->
+            <!--remove left callout -->
+            <remove name="left.permanent.callout" />
+        </reference>
+        <reference name="right">
+            <!-- @see catalog.xml -->
+            <!--remove right callout -->
+            <remove name="right.permanent.callout" />
+        </reference>
+    </default>
 </layout>
