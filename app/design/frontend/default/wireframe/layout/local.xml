@@ -20,7 +20,13 @@
             <remove name="right.reports.product.compared" />
             <remove name="right.reports.product.viewed" />
         </reference>
+        <reference name="footer">
+            <!-- @see page.xml -->
+            <!--remove footer links -->
+            <remove name="footer_links" />
+        </reference>
     </default>
+    
     <!-- product page -->
     <catalog_product_view>
         <reference name="product_options_wrapper_bottom">
@@ -29,4 +35,13 @@
             <remove name="product.clone_prices" />
         </reference>
     </catalog_product_view>
+
+    <!-- cart page -->
+    <checkout_cart_index>
+        <reference name="checkout.cart">
+            <!-- @see checkout.xml -->
+            <!-- remove top checkout methods -->
+            <remove name="checkout.cart.top_methods" />
+        </reference>
+    </checkout_cart_index>
 </layout>
