@@ -27,7 +27,11 @@
 <div class="footer-container">
     <div class="footer">
         <?php echo $this->getChildHtml() ?>
-        <p class="bugs"><?php echo $this->__('Help Us to Keep Magento Healthy') ?> - <a href="http://www.magentocommerce.com/bug-tracking" onclick="this.target='_blank'"><strong><?php echo $this->__('Report All Bugs') ?></strong></a> <?php echo $this->__('(ver. %s)', Mage::getVersion()) ?></p>
         <address><?php echo $this->getCopyright() ?></address>
+        <div class="">
+        	<a href="http://www.pixlpitch.com" target="_blank" alt="Magento Website Design">
+        		<img src="<?php echo $this->getSkinUrl('images/sitelink.jpg')?>" alt="Pixlpitch" />
+        	</a>
+        </div>
     </div>
 </div>
