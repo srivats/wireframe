@@ -21,4 +21,12 @@
             <remove name="right.reports.product.viewed" />
         </reference>
     </default>
+    <!-- product page -->
+    <catalog_product_view>
+        <reference name="product_options_wrapper_bottom">
+            <!-- @see catalog.xml -->
+            <!-- remove clone prices -->
+            <remove name="product.clone_prices" />
+        </reference>
+    </catalog_product_view>
 </layout>
