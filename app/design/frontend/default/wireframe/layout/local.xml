@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+        <reference name="header">
+            <!--remove language switcher -->
+            <!-- @see page.xml -->
+            <remove name="store_language" />
+        </reference>
+        <reference name="left">
+            <!-- @see catalog.xml -->
+            <!--remove left callout -->
+            <remove name="left.permanent.callout" />
+        </reference>
+        <reference name="right">
+            <!-- @see catalog.xml -->
+            <!--remove right callout -->
+            <remove name="right.permanent.callout" />
+            <!-- @see reports.xml -->
+            <!-- remove recently viewed products & compared products -->
+            <remove name="right.reports.product.compared" />
+            <remove name="right.reports.product.viewed" />
+        </reference>
+        <reference name="footer">
+            <!-- @see page.xml -->
+            <!--remove footer links -->
+            <remove name="footer_links" />
+        </reference>
+    </default>
+    
+    <!-- product page -->
+    <catalog_product_view>
+        <reference name="product_options_wrapper_bottom">
+            <!-- @see catalog.xml -->
+            <!-- remove clone prices -->
+            <remove name="product.clone_prices" />
+        </reference>
+    </catalog_product_view>
+
+    <!-- cart page -->
+    <checkout_cart_index>
+        <reference name="checkout.cart">
+            <!-- @see checkout.xml -->
+            <!-- remove top checkout methods -->
+            <remove name="checkout.cart.top_methods" />
+        </reference>
+    </checkout_cart_index>
+</layout>
