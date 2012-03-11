@@ -63,7 +63,7 @@ ul,ol         { list-style:none; }
 .col1-layout .col-main { float:none; width:auto; }
 /* 2 Columns Layout */
 .col2-left-layout .col-main { float:right; }
-.col2-right-layout .col-main {}
+.col2-right-layout .col-main { width:756px;}
 /* 3 Columns Layout */
 .col3-layout .col-main { width:484px; margin-left:10px; }
 .col3-layout .col-wrapper { float:left; width:748px; }
@@ -798,8 +798,11 @@ tr.summary-details-excluded { font-style:italic; }
 .account-login .new-users { float:right;}
 .account-login .registered-users { float:left; width:400px;}
 .account-login .registered-users .input-box{float:right;clear:right;margin-right:20px;}
-.account-login .registered-users h2{padding-bottom:5px; }
+.account-login .registered-users h2,.new-users h2{padding-bottom:5px; }
+#login-form .registered-users .buttons-set a{padding-right:20px;}
+.new-users .buttons-set{float:left;}
 .account-login .form-list{padding-top:10px;}
+#login-form .buttons-set{ padding:5px 0px;}
 .account-create {}
 /* Account Login/Create Pages ============================================================ */
 /* Remember Me Popup ===================================================================== */
