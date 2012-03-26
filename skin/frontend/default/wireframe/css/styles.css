@@ -353,7 +353,7 @@ tr.summary-details-excluded { font-style:italic; }
 /********** Navigation > */
 /* ======================================================================================= */
 /* Sidebar =============================================================================== */
-.block { border:1px solid #ddd; margin:0 0 10px; }
+.block { border:1px solid #dddddd; margin:0 0 10px; }
 .block .block-title { border-bottom:1px solid #ddd; padding:3px 10px; }
 .block .block-title strong { font-size:14px; font-weight:bold; }
 .block .block-title strong span {}
@@ -367,7 +367,7 @@ tr.summary-details-excluded { font-style:italic; }
 .block .actions a { float:left; }
 .block .empty {}
 .block li.odd {}
-.block li.even { background-color:#f6f6f6; }
+.block li.even { background-color:#ffffff; }
 /* Mini Products List */
 .mini-products-list li { padding:5px 0; }
 .mini-products-list .product-image { float:left; width:50px; padding:5px; border:1px solid #ddd; }
@@ -377,7 +377,7 @@ tr.summary-details-excluded { font-style:italic; }
 .block-account {}
 /* Block: Currency Switcher */
 .block-currency {}
-.block-currency select { width:100%; border:1px solid #888; }
+.block-currency select { width:100%; border:1px solid #888888; }
 /* Block: Layered Navigation */
 .block-layered-nav {}
 .block-layered-nav dt { font-weight:bold; }
