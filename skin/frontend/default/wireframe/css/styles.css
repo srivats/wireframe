@@ -239,7 +239,7 @@ p.required { font-size:10px; text-align:right; color:#f00; }
 .data-table tbody.even td { border-width:0 1px; }
 .data-table tbody.odd tr.border td,.data-table tbody.even tr.border td { border-bottom-width:1px; }
 .data-table th .tax-flag { white-space:nowrap; font-weight:normal; }
-.data-table td.label,.data-table th.label { font-weight:bold; background-color:#f6f6f6; }
+.data-table td.label,.data-table th.label { font-weight:bold; background-color:#ffffff; }
 .data-table td.value {}
 /* Shopping cart total summary row expandable to details */
 tr.summary-total { cursor:pointer; }
